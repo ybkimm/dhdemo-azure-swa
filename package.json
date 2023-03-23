@@ -11,6 +11,7 @@
     "test": "playwright test"
   },
   "dependencies": {
+    "@next/swc-win32-x64-msvc": "^13.2.4",
     "isomorphic-unfetch": "^3.0.0",
     "next": "^12.1.6",
     "react": "^17.0.2",

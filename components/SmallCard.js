@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function SmallCard({ Icon, title, slug }) {
+export default function SmallCard({ icon, title, slug }) {
   return (
-    <a className="card-small" href={`/project/${slug}`}>
-      <Icon w={153} h={163} />
+    <a className="card-small" href={slug}>
+      {icon}
       <h3>{title}</h3>
     </a>
   );

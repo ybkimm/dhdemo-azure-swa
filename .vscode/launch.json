@@ -7,6 +7,15 @@
             "request": "attach",
             "port": 9229,
             "preLaunchTask": "func: host start"
+        },
+        {
+            "name": "SWA: Run dev",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:4280",
+            "preLaunchTask": "swa: dev dhdemo-azure-swa",
+            "webRoot": "${workspaceFolder}/",
+            "timeout": 30000
         }
     ]
 }

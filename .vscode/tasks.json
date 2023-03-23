@@ -28,6 +28,14 @@
 			"options": {
 				"cwd": "${workspaceFolder}/api"
 			}
+		},
+		{
+			"type": "shell",
+			"command": "swa start http://localhost:3000 --api-location http://localhost:7071 --run 'npm run dev' --devserver-timeout=90000",
+			"problemMatcher": [
+				"$swa-watch"
+			],
+			"label": "swa: dev dhdemo-azure-swa"
 		}
 	]
 }
